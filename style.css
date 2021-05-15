@@ -4,3 +4,14 @@ body{
 a{
     scroll-behavior: smooth;
 }
+li{
+ margin-left:20px;
+ float:none;
+ text-decoration: none;
+}
+nav{
+    display:inline;
+}
+input {
+    background: grey;
+}
