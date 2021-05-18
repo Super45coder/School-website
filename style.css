@@ -1,14 +1,14 @@
 body{
     text-align:center;
 }
-a{
-    scroll-behavior: smooth;
-}
+
 li{
  margin-left:20px;
  float:none;
  text-decoration: none;
+scroll-behavior: smooth;
 }
+
 nav{
     display:inline;
 }
