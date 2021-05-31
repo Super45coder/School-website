@@ -58,3 +58,20 @@ input {
     margin-top:20px;
     margin-bottom:20px;
 }
+.environment_li {
+    margin-top: 13px;
+    margin-bottom:5px;
+}
+
+.environment_li h4 {
+    border-bottom: 1 px solid white;
+    padding: 8px;
+}
+
+.environment_li img {
+    border-radius: 25px;
+}
+
+.environment_li p {
+    margin-top: 10px;
+}
