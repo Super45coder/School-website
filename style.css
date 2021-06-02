@@ -120,3 +120,7 @@ input {
 .sticky + .content {
     padding-top: 60px;
 }
+#logofornav{
+    height:50px;
+    width:50px;
+}
