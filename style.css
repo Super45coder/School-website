@@ -1,67 +1,80 @@
-body{
-    text-align:center;
+body {
+    text-align: center;
 }
 
-li{
- margin-left:20px;
- float:none;
- text-decoration: none;
-scroll-behavior: smooth;
+li {
+    margin-left: 20px;
+    float: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    margin-top:100px;
 }
 
-nav{
-    display:inline;
+nav {
+    display: inline;
 }
+
 input {
     background: grey;
 }
-.row::after{
-    content:"";
+
+.row::after {
+    content: "";
     clear: both;
-    display:table;
+    display: table;
 }
-.travel_mainDiv{
-    float:left;
-    width:33.33%;
-    padding:5px;
-    border:1px solid #c7c7c7;
-        
+
+.travel_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+
 }
-.travel_mainDiv img{
-    width:100%;
-    height:300px; 
+
+.travel_mainDiv img {
+    width: 100%;
+    height: 300px;
 }
-.travel_mainDiv hr{
-    width:100%;
+
+.travel_mainDiv hr {
+    width: 100%;
 }
-.travel_mainDiv h5, .travel_mainDiv p{
-    margin-left:20px;
+
+.travel_mainDiv h5,
+.travel_mainDiv p {
+    margin-left: 20px;
 }
-.achievementID{
-    padding-bottom:10px;
+
+.achievementID {
+    padding-bottom: 10px;
 }
-.movie_head{
-    font-size:20px;
-    padding:6px 22px; 
-    border-radius:10px;
-    margin-bottom:15px; 
-    width:100%;
-    display:inline-block;
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
 }
-.movie_head i{
-    float:right;
+
+.movie_head i {
+    float: right;
 }
-.movie_text span{
-    color:#ff7700;
+
+.movie_text span {
+    color: #ff7700;
 }
-#logo{
-    margin-top:20px;
-    margin-bottom:20px;
-    margin-right:20px;
+
+#logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 .environment_li {
     margin-top: 13px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 
 .environment_li h4 {
@@ -76,6 +89,43 @@ input {
 .environment_li p {
     margin-top: 10px;
 }
-.container{
-    background-color:lightgoldenrodyellow;
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+.content {
+    padding: 16px;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.sticky + .content {
+    padding-top: 60px;
+}
+#logofornav{
+    height:50px;
+    width:50px;
+}
+#footer{
+    height:20px;
+    background-color:white;
 }
