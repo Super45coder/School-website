@@ -1,6 +1,5 @@
 body{
     text-align:center;
-    background-color:lightgoldenrodyellow;
 }
 
 li{
@@ -76,4 +75,7 @@ input {
 
 .environment_li p {
     margin-top: 10px;
+}
+.container{
+    background-color:lightgoldenrodyellow;
 }
